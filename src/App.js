@@ -3,24 +3,50 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+
+  constructor () {
+    super()
+    
+    this.state = {
+      phoneNumber: '+55'
+    }
+
+    this.linkRef = React.createRef()
+  }
+
+  createCall () {
+    this.linkRef.current.click()
+  }
+
+  changePhone (e) {
+    this.setState({
+      phoneNumber: e.target.value
+    })
+  }
+
   render() {
+    const { phoneNumber } = this.state
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
+      <React.Fragment>
+        <div className="container">
+          <img src={logo} className="logo" alt="FastWhats" />
+          <span>Inicie uma conversa com você mesmo ou com outra pessoa sem precisar salvar na agenda.</span>
+          <div class="input-wrap">
+            <input className="phoneNumber" type="number" placeholder="11999999999" onChange={this.changePhone.bind(this)} />
+            <span>Digite o DDD e o número (apenas números)</span>
+          </div>
+          <button onClick={this.createCall.bind(this)}>Criar conversa</button>
+          <button>Indicar o FastWhats</button>
           <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+            className="hidden"
+            ref={this.linkRef}
+            href={`intent://send?text=oi/+55${phoneNumber}#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end`}
+          ></a>
+          <div className="createdBy">
+            Created by: <a href="http://github.com/thiagommedeiros" target="_blank" rel="noopener noreferrer">Thiago Medeiros</a>
+          </div>
+        </div>
+      </React.Fragment>
     );
   }
 }
