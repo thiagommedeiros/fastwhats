@@ -53,13 +53,7 @@ class App extends Component {
         <a
           className="hidden"
           ref={this.linkRef}
-          href={`
-            intent://send/+55${phoneNumber}#Intent;
-            scheme=smsto;
-            package=com.whatsapp;
-            action=android.intent.action.SENDTO;
-            end
-          `}
+          href={`intent://send/+55${phoneNumber}#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end`}
         ></a>
         <div className="createdBy">
           <a 
