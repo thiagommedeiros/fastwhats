@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/fastwhats/static/css/main.529737a5.chunk.css"
   },
   {
-    "revision": "205a2bc6f8555a6203f938dfc5f40397",
+    "revision": "b9df068de73a50176a393986f97d06c0",
     "url": "/fastwhats/index.html"
   }
 ];
