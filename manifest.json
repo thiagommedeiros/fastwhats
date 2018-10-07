@@ -5,10 +5,11 @@
     {
       "src": "logo.svg",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/svg+xml"
     }
   ],
-  "start_url": ".",
+  "scope": "https://thiagommedeiros.github.io/fastwhats/",
+  "start_url": "https://thiagommedeiros.github.io/fastwhats/index.html",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
