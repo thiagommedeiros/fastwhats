@@ -1,7 +1,7 @@
 {
   "main.css": "/fastwhats/static/css/main.facb60da.chunk.css",
-  "main.js": "/fastwhats/static/js/main.a9289517.chunk.js",
-  "main.js.map": "/fastwhats/static/js/main.a9289517.chunk.js.map",
+  "main.js": "/fastwhats/static/js/main.4c0867c3.chunk.js",
+  "main.js.map": "/fastwhats/static/js/main.4c0867c3.chunk.js.map",
   "static/js/1.6105a37c.chunk.js": "/fastwhats/static/js/1.6105a37c.chunk.js",
   "static/js/1.6105a37c.chunk.js.map": "/fastwhats/static/js/1.6105a37c.chunk.js.map",
   "runtime~main.js": "/fastwhats/static/js/runtime~main.3bff4790.js",
@@ -9,6 +9,6 @@
   "static/media/logo.svg": "/fastwhats/static/media/logo.6550fcc1.svg",
   "static/css/main.facb60da.chunk.css.map": "/fastwhats/static/css/main.facb60da.chunk.css.map",
   "index.html": "/fastwhats/index.html",
-  "precache-manifest.dfe8636784878656264d610064564a68.js": "/fastwhats/precache-manifest.dfe8636784878656264d610064564a68.js",
+  "precache-manifest.046b3e7c86f1f97a15ea2438caa72219.js": "/fastwhats/precache-manifest.046b3e7c86f1f97a15ea2438caa72219.js",
   "service-worker.js": "/fastwhats/service-worker.js"
 }
