@@ -28,7 +28,8 @@ h1, p {
 }
 
 .phoneNumber {
-  padding: 10px;
+  width: 100vw;
+  padding: 10px 0;
   border: none;
   font-size: 2em;
   font-weight: bold;
