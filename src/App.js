@@ -33,7 +33,7 @@ class App extends Component {
           className="logo"
           alt="FastWhats"
         />
-        <h1>FastWhats</h1>
+        <h1>FastWhats (beta)</h1>
         <p>
           Inicie uma conversa com você mesmo ou com outra pessoa sem precisar salvar na agenda.
         </p>
