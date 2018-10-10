@@ -3,13 +3,12 @@
   "name": "FastWhats",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "./favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/svg+xml"
     }
   ],
-  "scope": "https://thiagommedeiros.github.io/fastwhats/",
-  "start_url": "https://thiagommedeiros.github.io/fastwhats/index.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
