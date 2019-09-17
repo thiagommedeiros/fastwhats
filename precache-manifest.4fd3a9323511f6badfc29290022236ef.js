@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/fastwhats/static/js/runtime~main.3bff4790.js"
   },
   {
-    "revision": "22ada552d5d908ccb41c",
-    "url": "/fastwhats/static/js/main.22ada552.chunk.js"
+    "revision": "077e21cdd7bba733a316",
+    "url": "/fastwhats/static/js/main.077e21cd.chunk.js"
   },
   {
     "revision": "6105a37ce77693a684b2",
     "url": "/fastwhats/static/js/1.6105a37c.chunk.js"
   },
   {
-    "revision": "22ada552d5d908ccb41c",
+    "revision": "077e21cdd7bba733a316",
     "url": "/fastwhats/static/css/main.529737a5.chunk.css"
   },
   {
-    "revision": "722e5f9c7cda1bfc0432f823caca9326",
+    "revision": "1085184a20ea152f7481df32694e800c",
     "url": "/fastwhats/index.html"
   }
 ];
