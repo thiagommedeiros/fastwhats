@@ -8,7 +8,7 @@ class App extends Component {
     super()
     
     this.state = {
-      phoneNumber: '+55'
+      phoneNumber: '+'
     }
 
     this.linkRef = React.createRef()
@@ -41,10 +41,9 @@ class App extends Component {
           <input 
             className="phoneNumber" 
             type="number"
-            placeholder="11999999999"
+            placeholder="+5511999999999"
             onChange={this.changePhone.bind(this)}
           />
-          <span>Digite o DDD e o número (apenas números)</span>
         </div>
         <button onClick={this.createCall.bind(this)}>
           Criar conversa
@@ -53,7 +52,7 @@ class App extends Component {
         <a
           className="hidden"
           ref={this.linkRef}
-          href={`intent://send/+55${phoneNumber}#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end`}
+          href={`intent://send/${phoneNumber}#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end`}
         ></a>
         <div className="createdBy">
           <a 
